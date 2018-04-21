@@ -1,0 +1,9 @@
+workdir "/home/example/Temp/";
+logfile "/tmp/example_log.txt";
+
+project{
+	"mkdir -m 775 -p Example";
+	"rm -rf Example";
+	"cd Example/";
+	"echo test >> 1.txt";
+}
